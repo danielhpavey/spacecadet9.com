@@ -232,7 +232,7 @@ article{
 	max-width:666px;
 }
 
-article h2+p{
+article h2:first-child+p{
 	margin:0 0 20px 0;
 	border-bottom: 1px solid #ca1a09;
 
