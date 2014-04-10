@@ -16,7 +16,7 @@
 <?php the_content(); ?>
 <span class="categories">
 <?php if ( count( get_the_category() ) ) : ?>
- <?php wp_dropdown_categories( $args ); ?> 
+<?php printf( __( 'Categories: %2$s', 'sushi' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>
 <?php endif; ?>
 </span>
 </article>
