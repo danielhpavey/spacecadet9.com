@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section>
 <?php if (is_home()) {
-		query_posts($query_string . '&cat=-412');
+		query_posts('cat=-412,-459');
 		} ?>
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
