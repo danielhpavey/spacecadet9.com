@@ -19,20 +19,11 @@ body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:
 :focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}
 
 
-@font-face {
-    font-family: 'WebSymbolsRegular';
-    src: url('WebSymbols-Regular-webfont.eot');
-    src: url('WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('WebSymbols-Regular-webfont.woff') format('woff'),
-         url('WebSymbols-Regular-webfont.ttf') format('truetype'),
-         url('WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
+@include font-face('WebSymbols-Regular-webfont', '', 'WebSymbols-Regular-webfont');
 
 .WebSymbols{
-	font-family:WebSymbolsRegular;
+	font-family:WebSymbols-Regular-webfont;
 	color:#003300;
 	font-size: 2em;
 	float: right;
