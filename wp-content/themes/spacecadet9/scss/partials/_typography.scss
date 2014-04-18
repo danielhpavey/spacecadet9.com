@@ -1,0 +1,26 @@
+$bodyfontcolour: #646464;
+	
+@include font-face( 'Nexa-bold', '../font', 'Nexa_Free_Bold-webfont');
+
+body{
+	font:{
+		size:16px;
+		family: Georgia, Times, "Times New Roman", serif;
+}
+	color: $bodyfontcolour;
+
+}
+
+h1{
+	font:{
+		family: Nexa-bold;
+		size:3.8em;
+	}
+	text:{
+		align:center;
+		transform:uppercase;
+	}
+
+	letter-spacing:-0.03em;
+
+}
