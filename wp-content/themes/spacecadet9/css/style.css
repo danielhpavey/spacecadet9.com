@@ -227,6 +227,12 @@ table {
   font-weight: normal;
   src: url("WebSymbols-Regular-webfont.eot") format("eot"), url("WebSymbols-Regular-webfont.woff") format("woff"), url("WebSymbols-Regular-webfont.ttf") format("truetype"), url("WebSymbols-Regular-webfont.svg#WebSymbols-Regular-webfont") format("svg"); }
 
+@font-face {
+  font-family: "lato-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/lato/lato-light-webfont.eot") format("eot"), url("../fonts/lato/lato-light-webfont.woff") format("woff"), url("../fonts/lato/lato-light-webfont.ttf") format("truetype"), url("../fonts/lato/lato-light-webfont.svg#lato-light-webfont") format("svg"); }
+
 .WebSymbols {
   font-family: WebSymbols-Regular-webfont;
   color: #003300;
@@ -235,8 +241,8 @@ table {
   margin: 5px; }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'lato-light';
+  font-size: 17px;
   background: url("images/cream_dust.png");
   position: relative;
   float: left; }

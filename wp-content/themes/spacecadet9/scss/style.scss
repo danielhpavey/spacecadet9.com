@@ -21,6 +21,7 @@ body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:
 
 
 @include font-face('WebSymbols-Regular-webfont', '', 'WebSymbols-Regular-webfont');
+@include font-face('lato-light', '../fonts/lato/', 'lato-light-webfont');
 
 .WebSymbols{
 	font-family:WebSymbols-Regular-webfont;
@@ -32,8 +33,8 @@ body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:
 
 
 body{
-	font-family: 'Josefin Sans', sans-serif;
-	font-size:16px;
+	font-family: 'lato-light';
+	font-size:17px;
 	background:url('images/cream_dust.png');
 	position:relative;
 	float:left;
