@@ -233,6 +233,12 @@ table {
   font-weight: normal;
   src: url("../fonts/lato/lato-light-webfont.eot") format("eot"), url("../fonts/lato/lato-light-webfont.woff") format("woff"), url("../fonts/lato/lato-light-webfont.ttf") format("truetype"), url("../fonts/lato/lato-light-webfont.svg#lato-light-webfont") format("svg"); }
 
+@font-face {
+  font-family: "josefinsans-light-webfont";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/josefin-sans/josefinsans-light-webfont.eot") format("eot"), url("../fonts/josefin-sans/josefinsans-light-webfont.woff") format("woff"), url("../fonts/josefin-sans/josefinsans-light-webfont.ttf") format("truetype"), url("../fonts/josefin-sans/josefinsans-light-webfont.svg#josefinsans-light-webfont") format("svg"); }
+
 .WebSymbols {
   font-family: WebSymbols-Regular-webfont;
   color: #003300;
@@ -373,6 +379,9 @@ footer b {
   -moz-transform: rotate(30deg);
   /* Firefox */
   opacity: 0.3; }
+
+h1, h2, h3, h4 {
+  font-family: 'josefinsans-light-webfont'; }
 
 h1 {
   font-weight: 100;

@@ -22,6 +22,7 @@ body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:
 
 @include font-face('WebSymbols-Regular-webfont', '', 'WebSymbols-Regular-webfont');
 @include font-face('lato-light', '../fonts/lato/', 'lato-light-webfont');
+@include font-face('josefinsans-light-webfont', '../fonts/josefin-sans/', 'josefinsans-light-webfont');
 
 .WebSymbols{
 	font-family:WebSymbols-Regular-webfont;
@@ -192,6 +193,10 @@ transform: rotate(30deg);
 
 }
 	
+h1, h2, h3, h4{
+	font-family: 'josefinsans-light-webfont';
+}
+
 	
 h1 {
 	font-weight:100;
