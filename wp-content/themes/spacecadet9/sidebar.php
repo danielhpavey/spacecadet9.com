@@ -8,6 +8,7 @@
 <?php if ( !dynamic_sidebar() ) : ?>
 <?php endif; ?>
 </ul>
+<div style = "clear:both;"></div>
 </aside>
 <?php
 
