@@ -24,6 +24,12 @@ body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:
 @include font-face('lato-light', '../fonts/lato/', 'lato-light-webfont');
 @include font-face('josefinsans-light-webfont', '../fonts/josefin-sans/', 'josefinsans-light-webfont');
 
+*, *:after, *:before {  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;  
+    box-sizing: border-box;
+}
+
 .WebSymbols{
 	font-family:WebSymbols-Regular-webfont;
 	color:#003300;
@@ -49,11 +55,9 @@ blockquote{
 	
 header{
 	position:relative;
-	width:57%;
-	float:right;
+	width:100%;
 	text-align:right;
 	margin:20px 0 0;
-	height:150px;
 	padding:0 7% 0 0;
 	}	
 
@@ -61,26 +65,28 @@ header{
 	
 	
 aside{
-	width:20%;
+	width:100%;
 	height:100%;
 	position:relative;
 	
-	float:left;
+    .widgets{
+        display:none;
+    }
 	
 
 	}
 	
 
 #menu-menu{
-	margin:150px 0 0 0;
 }
 
 #menu-menu li{
-	margin:0 15% 20px 0;
+    width:50%;
+    display:inline-block;
+    float:left;
 	padding: 10px 10px 0 10px;
 	background:#003300;
 	color:white;
-	text-align:right;
 }
 
 
@@ -123,11 +129,10 @@ aside{
 }
 
 section{
-	border-left:80px solid #003300;
+	border-left:20px solid #003300;
 	padding:0 7% 0 5%;
-	width:60%;
+	width:100%;
 	position:relative;
-	float:right;
 	min-height:1000px;
 	}
 
@@ -294,78 +299,4 @@ textarea{
 }
 
 
-/*MEDIA QUERIES */
-
-@media only screen 
-and (max-width : 1024px) {
-
-section{
-	width:56%;
-}
-
-header h1{
-	font-size:60px;
-}
-
-}
-
-
-
-/*MEDIA QUERIES */
-
-@media only screen 
-and (max-width : 500px) {
-
-aside, section, header{
-	width:90%;
-	float:left;
-	padding:0 5%;
-	}
-	
-aside{
-	width:100%;
-	padding:0;
-	margin:0 0 20px;
-	}
-
-#menu-menu{
-	margin:0;
-	}
-	
-#menu-menu li{
-	display:inline-block;
-	margin:0;
-	padding:0;
-	width:32.5%;
-	text-align:center;
-	}	
-	
-	
-
-#menu-menu{
-
-	}
-
-
-#menu-menu li:hover{
-	animation: none;
-	-moz-animation: none;
-	-webkit-animation: none;
-	}
-	
-p{
-	font-size:1.3em;
-	}
-
-section{
-	border-left:0px;
-
-	}
-
-section:before{
-	display:none;
-	}
-
-
-}
 
