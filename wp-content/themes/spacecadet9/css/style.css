@@ -299,15 +299,14 @@ aside {
     #menu-menu li {
       float: none;
       width: 80%;
-      margin-bottom: 20px; } }
-
-#menu-menu li:hover {
-  animation: thingymove 2s;
-  -moz-animation: thingymove 2s;
-  -webkit-animation: thingymove 2s; }
-
-#menu-menu li:hover {
-  margin-right: 0%; }
+      margin-bottom: 20px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      -o-transition: all 2s ease;
+      transition: all 2s ease; }
+      #menu-menu li:hover {
+        width: 120%; } }
 
 #menu-menu li a {
   color: white;
