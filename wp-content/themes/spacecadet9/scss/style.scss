@@ -105,6 +105,12 @@ aside{
             float:none;
             width:80%;
             margin-bottom:20px;
+            @include transition(all, 2s, ease);
+
+            &:hover{
+                width:120%;
+                
+            }
 
         }
 }
@@ -112,16 +118,6 @@ aside{
 
 
 
-
-#menu-menu li:hover{
-	animation: thingymove 2s;
-	-moz-animation: thingymove 2s;
-	-webkit-animation: thingymove 2s;
-	}
-
-#menu-menu li:hover{
-	margin-right: 0%;
-}
 
 #menu-menu li a{
 	color: white;
