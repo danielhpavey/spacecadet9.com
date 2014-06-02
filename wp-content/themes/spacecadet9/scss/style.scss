@@ -68,9 +68,19 @@ aside{
 	width:100%;
 	height:100%;
 	position:relative;
+        @media only screen and (min-width : 1024px) {
+            width:20%;
+            float:left;
+        }
 	
     .widgets{
         display:none;
+        @media only screen and (min-width : 1024px) {
+        display:block;
+
+
+
+}
     }
 	
 
@@ -78,6 +88,10 @@ aside{
 	
 
 #menu-menu{
+    display:none;
+        @media only screen and (min-width : 1024px) {
+        display:block;
+        }
 }
 
 #menu-menu li{
@@ -87,25 +101,17 @@ aside{
 	padding: 10px 10px 0 10px;
 	background:#003300;
 	color:white;
+        @media only screen and (min-width : 1024px) {
+            float:none;
+            width:80%;
+            margin-bottom:20px;
+
+        }
 }
 
 
-@keyframes thingymove {
-	0% { margin-right:15%}
-	100% {margin-right:0%}
-}
 
 
-@-webkit-keyframes thingymove {
-	0% { margin-right:15%}
-	100% {margin-right:0%}
-}
-
-
-@-moz-keyframes thingymove {
-	0% { margin-right:15%}
-	100% {margin-right:0%}
-}
 
 #menu-menu li:hover{
 	animation: thingymove 2s;
@@ -134,17 +140,25 @@ section{
 	width:100%;
 	position:relative;
 	min-height:1000px;
+        @media only screen and (min-width : 1024px) {
+            width:78%;
+            float:right;
+	        border-left:80px solid #003300;
+        }
 	}
 
 section:before{
 	content:"";
 	display:block;
-	height:180px;
+	height:280px;
 	width:80px;
 	background:#003300;
 	position:absolute;
-	top:-180px;
+	top:-280px;
 	left:-80px;
+        @media only screen and (min-width : 1024px) {
+           top:-160px;
+        } 
 }
 
 pre{
