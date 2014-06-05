@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.spacecadet9.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.6" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
-<!-- generated-on="June 3, 2014 3:02 pm" -->
+<!-- generated-on="June 4, 2014 7:38 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://www.spacecadet9.com/</loc>
-		<lastmod>2014-06-03T15:02:05+00:00</lastmod>
+		<lastmod>2014-06-04T19:38:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.spacecadet9.com/favorite-tweet-via-swcamperhire/</loc>
+		<lastmod>2014-06-04T19:38:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.spacecadet9.com/death-to-bullshit-by-the-inimitable-brad-frost/</loc>
+		<lastmod>2014-06-04T11:42:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.spacecadet9.com/mike-monteiro-how-designers-destroyed-the-world/</loc>
+		<lastmod>2014-06-04T11:41:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>http://www.spacecadet9.com/its-a-great-time-to-be-a-ux-designer-by-jared-m-spool-an-event-apart-austin/</loc>
@@ -608,12 +626,6 @@
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://www.spacecadet9.com/mike-monteiro-how-designers-destroyed-the-world/</loc>
-		<lastmod>2014-03-05T21:37:32+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
 		<loc>http://www.spacecadet9.com/about/</loc>
 		<lastmod>2014-03-05T13:38:11+00:00</lastmod>
 		<changefreq>weekly</changefreq>
@@ -706,12 +718,6 @@
 	<url>
 		<loc>http://www.spacecadet9.com/favorite-tweet-via-morethymeblog/</loc>
 		<lastmod>2014-02-12T18:10:49+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://www.spacecadet9.com/death-to-bullshit-by-the-inimitable-brad-frost/</loc>
-		<lastmod>2014-02-07T21:57:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
