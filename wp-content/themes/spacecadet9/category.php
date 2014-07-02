@@ -1,19 +1,8 @@
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 <section>
-<?php
-// set the "paged" parameter (use 'page' if the query is on a static front page)
-$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
-// the query
-
-global $post;
-
-$the_query = new WP_Query( 'cat=-412,-459&paged=' . $paged ); 
-?>
-
-<?php if ( $the_query->have_posts() ) : ?>
-<?php while ( $the_query->have_posts() ) : $the_query->the_post();  ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <article>
 <h2 class="entry-title">
 <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?>
