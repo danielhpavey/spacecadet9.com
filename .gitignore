@@ -3,4 +3,5 @@ wp-config.php
 wp-config.work.php
 Thumbs.db
 .sass-cache
+.htaccess
 
