@@ -254,8 +254,7 @@ table {
 body {
   font-family: 'lato-light';
   font-size: 17px;
-  position: relative;
-  float: left; }
+  position: relative; }
 
 blockquote {
   border-left: 10px solid #003300;
