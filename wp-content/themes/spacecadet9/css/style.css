@@ -329,11 +329,11 @@ section {
 section:before {
   content: "";
   display: block;
-  height: 280px;
+  height: 310px;
   width: 80px;
   background: #003300;
   position: absolute;
-  top: -280px;
+  top: -310px;
   left: -80px; }
   @media only screen and (min-width: 1024px) {
     section:before {
