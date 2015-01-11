@@ -25,6 +25,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/style.css" />
 <link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' ); ?>/dan-dare-head-ios.png"/>
 
