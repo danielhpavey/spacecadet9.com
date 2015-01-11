@@ -226,19 +226,16 @@ table {
   font-style: normal;
   font-weight: normal;
   src: url("WebSymbols-Regular-webfont.eot") format("eot"), url("WebSymbols-Regular-webfont.woff") format("woff"), url("WebSymbols-Regular-webfont.ttf") format("truetype"), url("WebSymbols-Regular-webfont.svg#WebSymbols-Regular-webfont") format("svg"); }
-
 @font-face {
   font-family: "lato-light";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/lato/lato-light-webfont.eot") format("eot"), url("../fonts/lato/lato-light-webfont.woff") format("woff"), url("../fonts/lato/lato-light-webfont.ttf") format("truetype"), url("../fonts/lato/lato-light-webfont.svg#lato-light-webfont") format("svg"); }
-
 @font-face {
   font-family: "josefinsans-light-webfont";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/josefin-sans/josefinsans-light-webfont.eot") format("eot"), url("../fonts/josefin-sans/josefinsans-light-webfont.woff") format("woff"), url("../fonts/josefin-sans/josefinsans-light-webfont.ttf") format("truetype"), url("../fonts/josefin-sans/josefinsans-light-webfont.svg#josefinsans-light-webfont") format("svg"); }
-
 *, *:after, *:before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -252,9 +249,10 @@ table {
   margin: 5px; }
 
 body {
-  font-family: 'lato-light';
+  position: relative;
+  font-family: 'Source Serif Pro', serif;
   font-size: 17px;
-  position: relative; }
+  color: #646464; }
 
 blockquote {
   border-left: 10px solid #003300;
@@ -264,7 +262,7 @@ header {
   position: relative;
   width: 100%;
   text-align: right;
-  margin: 20px 0 0;
+  margin: 20px 0 50px;
   padding: 0 7% 0 0; }
 
 aside {
@@ -314,7 +312,7 @@ aside {
   text-decoration: none;
   width: 100%;
   display: block;
-  font-family: 'josefinsans-light-webfont'; }
+  font-family: 'lato-light'; }
 
 section {
   border-left: 20px solid #003300;
@@ -339,7 +337,7 @@ section:before {
   left: -80px; }
   @media only screen and (min-width: 1024px) {
     section:before {
-      top: -160px; } }
+      top: -200px; } }
 
 pre {
   width: 100%; }
@@ -385,7 +383,7 @@ footer b {
   opacity: 0.3; }
 
 h1, h2, h3, h4 {
-  font-family: 'josefinsans-light-webfont'; }
+  font-family: 'lato-light'; }
 
 h1 {
   font-weight: 100;
@@ -422,7 +420,7 @@ article h2:first-child + p {
 
 p {
   font-size: 1.1em;
-  line-height: 1.5em;
+  line-height: 1.6em;
   margin: 10px 0; }
 
 article li {
@@ -455,3 +453,5 @@ textarea {
 
 .widgets a {
   padding: 5px 0; }
+
+/*# sourceMappingURL=style.css.map */
