@@ -1,6 +1,7 @@
 /*
 Title: Joomla 3 Layouts
 Date: 2014-04-11
+Tags: joomla,web design
 */
 
 # Joomla 3 Layouts

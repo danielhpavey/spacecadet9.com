@@ -1,6 +1,7 @@
 /*
 Title: Batch Rename File Extensions in Terminal for Mac
 Date: 2012-09-17
+Tags: mac,apple,terminal
 */
 
 # Batch Rename File Extensions in Terminal for Mac

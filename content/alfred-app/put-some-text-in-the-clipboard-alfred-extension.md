@@ -1,6 +1,7 @@
 /*
 Title: Put Some Text in the Clipboard - Alfred Extension
 Date: 2012-12-06
+Tags: alfred,workflow
 */
 
 # Put Some Text in the Clipboard - Alfred Extension

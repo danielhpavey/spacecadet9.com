@@ -1,6 +1,7 @@
 /*
 Title: Alfred & Total Terminal Integration
 Date: 2013-07-31
+Tags: alfred
 */
 
 # Alfred & Total Terminal Integration

@@ -1,6 +1,7 @@
 /*
 Title: error-500-php-regularexpression-limit-reached
 Date: 2012-11-19
+Tags: joomla,web design,php
 */
 
 # 500 - PHP regular expression limit reached

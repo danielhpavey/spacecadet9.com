@@ -1,6 +1,7 @@
 /*
 Title: Alfred App Fantastical Workflow
 Date: 2013-01-16
+Tags: alfred,workflow
 */
 
 # Alfred App Fantastical Workflow

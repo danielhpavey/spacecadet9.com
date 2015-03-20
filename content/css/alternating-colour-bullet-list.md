@@ -1,6 +1,7 @@
 /*
 Title: Alternating Colour Bullet Points Using nth-child
 Date: 2015-03-19
+Tags: css,web design
 */
 
 # Alternating Colour Bullet Points Using nth-child
