@@ -1,6 +1,7 @@
 /*
 Title:How to transition height auto in CSS3
 Date: 2014-05-09
+Tags: css,web design
 */
 
 # How to transition height auto in CSS3
