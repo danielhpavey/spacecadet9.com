@@ -19,9 +19,5 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-body {
-    font-family: 'Oxygen', sans-serif;
-	line-height: 1.6;
-	color: black;
-	background: white;
-}
+
+@import 'partials/index';
