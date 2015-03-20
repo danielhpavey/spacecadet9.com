@@ -5,7 +5,7 @@
 
 $config['site_title'] = 'Pico';			// Site title
 $config['base_url'] = ''; 				// Override base URL (e.g. http://example.com)
-$config['theme'] = 'default'; 			// Set the theme (defaults to "default")
+$config['theme'] = 'mytheme'; 			// Set the theme (defaults to "default")
 $config['date_format'] = 'jS M Y';		// Set the PHP date format
 $config['twig_config'] = array(			// Twig settings
 	'cache' => false,					// To enable Twig caching change this to CACHE_DIR
@@ -21,3 +21,6 @@ $config['excerpt_length'] = 50;			// The pages excerpt length (in words)
 $config['custom_setting'] = 'Hello'; 	// Can be accessed by {{ config.custom_setting }} in a theme
 
 */
+$config['theme'] = 'mytheme'; 			// Set the theme (defaults to "default")
+$config['pages_order_by'] = 'date';	// Order pages by "alpha" or "date"
+$config['pages_order'] = 'desc';			// Order pages "asc" or "desc"
