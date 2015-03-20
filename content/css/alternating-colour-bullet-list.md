@@ -14,4 +14,8 @@ I decided to use [nth-child](https://css-tricks.com/how-nth-child-works/) to col
 
 I've had a log of practice using pseudo elements, but am not hugely familiar with nth-child. [This article on CSS Tricks](https://css-tricks.com/how-nth-child-works/) was very helpful (as usual!).
 
+Here's the code:
+
+<p data-height="268" data-theme-id="0" data-slug-hash="LEJVoq" data-default-tab="result" data-user="spacecadet9" class='codepen'>See the Pen <a href='http://codepen.io/spacecadet9/pen/LEJVoq/'>Alternating Colour List Item Bullets </a> by SpaceCadet9 (<a href='http://codepen.io/spacecadet9'>@spacecadet9</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
