@@ -18,23 +18,25 @@
 
 <header>
     <h1><a href="{{ base_url }}">{{ site_title }}</a></h1>
+    <h2>A sorta, kinda, web development and design blog...</h2>
+    <nav>
     <ul class="nav">
+            <li><a href = "{{ base_url }}">Home</a></li>
         {% for page in pages %}
             {% if not page.date %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>
+    </nav>
 </header>
 
 	<section id="content">
-		<div class="inner">
-            {% if is_front_page %} <!-- Front page lists all blog posts -->
+            {% if is_front_page %}
 
-            <div id="posts">
             {% for page in pages %}
-                {% if page.date %} <!-- Note we check for Date field (posts) here -->
-                <div class="post">
+                {% if page.date %}
+                <article>
                     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
                     <p class="meta">{{ page.date_formatted }}</p>
                     <p class="meta">Tags:
@@ -43,13 +45,12 @@
                     {% endfor %}
                 </p>
                     <p class="excerpt">{{ page.excerpt }}</p>
-                </div>
+                </article>
                 {% endif %}
             {% endfor %}
-            </div>
 
         {% elseif meta.tags %}
-            <!-- blog post -->
+
                 <article>
                     <h2>{{ meta.title }}</h2>
                     <p class="meta">Tags:
@@ -59,10 +60,8 @@
                     </p>
                     {{ content }}
                 </article>
-            <!-- blog post -->
 
         {% elseif pages and meta.title != 'Error 404' %}
-            <!-- tags page -->
                 All tags:
                 <ul class="tags">
                     {% for tag in tag_list %}
@@ -85,9 +84,8 @@
                         </article>
                     {% endif %}
                 {% endfor %}
-            <!-- tags page -->
 
-        {% else %} <!-- Single page shows individual blog post -->
+        {% else %} 
 
             <div class="post">
                 {% if meta.title %}<h2>{{ meta.title }}</h2>{% endif %}
@@ -95,7 +93,6 @@
             </div>
 
         {% endif %}
-		</div>
 	</section>
 	
 	<footer id="footer">
