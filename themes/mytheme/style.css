@@ -124,6 +124,8 @@ header {
 
 img {
   display: block;
-  margin: 1.6rem auto; }
+  margin: 1.6rem auto;
+  padding: 0.16rem;
+  border: 1px solid #e4e4e4; }
 
 /*# sourceMappingURL=style.css.map */

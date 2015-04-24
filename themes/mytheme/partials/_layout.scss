@@ -20,5 +20,7 @@ header{
 img{
     display:block;
     margin:$margin  auto;
+    padding: $margin / 10;
+    border:1px solid lighten($black, 50%);    
     
 }

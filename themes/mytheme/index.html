@@ -37,7 +37,7 @@
             {% for page in pages %}
                 {% if page.date %}
                 <article>
-                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
                     <p class="meta">{{ page.date_formatted }}</p>
                     <p class="meta">Tags:
                     {% for tag in page.tags %}
@@ -52,13 +52,13 @@
         {% elseif meta.tags %}
 
                 <article>
-                    <h2>{{ meta.title }}</h2>
+                    <!-- <h1>{{ meta.title }}</h1> -->
+                    {{ content }}
                     <p class="meta">Tags:
                         {% for tag in meta.tags %}
                             <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
                         {% endfor %}
                     </p>
-                    {{ content }}
                 </article>
 
         {% elseif pages and meta.title != 'Error 404' %}
