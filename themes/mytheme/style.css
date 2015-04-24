@@ -122,4 +122,8 @@ body {
 header {
   margin: 0 0 2em 0; }
 
+img {
+  display: block;
+  margin: 1.6rem auto; }
+
 /*# sourceMappingURL=style.css.map */
