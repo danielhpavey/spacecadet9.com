@@ -8,3 +8,5 @@ Tags: gifs,css,web development
 #Great Gif: Refactoring
 
 <img src = "http://www.spacecadet9.com/images/refactoring.gif" alt = "Refactoring Gif" />
+
+Love this gif!
