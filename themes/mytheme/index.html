@@ -35,7 +35,7 @@
 <section id="content">
 {% if is_front_page %}
 
-    {% for page in pages %}
+    {% for page in paged_pages %}
         {% if page.date %}
             <article>
                 <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
@@ -49,6 +49,7 @@
             </article>
         {% endif %}
     {% endfor %}
+    {{ pagination_links }}
 
 {% elseif current_page is not empty %}
 
