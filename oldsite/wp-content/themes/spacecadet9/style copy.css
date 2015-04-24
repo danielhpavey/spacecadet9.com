@@ -1,0 +1,372 @@
+/*
+Theme Name: Space Cadet 9
+Theme URI: http://wordpress.org/
+Description: My Own Wordpress Theme
+Author: Daniel H Pavey
+Version: 0.1
+Tags: 
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}
+
+
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('WebSymbols-Regular-webfont.eot');
+    src: url('WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('WebSymbols-Regular-webfont.woff') format('woff'),
+         url('WebSymbols-Regular-webfont.ttf') format('truetype'),
+         url('WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.WebSymbols{
+	font-family:WebSymbolsRegular;
+	color:#003300;
+	font-size: 2em;
+	float: right;
+	margin: 5px;
+}
+
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:16px;
+	background:url('images/cream_dust.png');
+	position:relative;
+	float:left;
+
+	}
+
+blockquote{
+	border-left: 10px solid #003300;
+	padding: 10px 0 10px 30px;
+}
+	
+	
+header{
+	position:relative;
+	width:57%;
+	float:right;
+	text-align:right;
+	margin:20px 0 0;
+	height:150px;
+	padding:0 7% 0 0;
+	}	
+
+
+	
+	
+aside{
+	width:20%;
+	height:100%;
+	position:relative;
+	
+	float:left;
+	
+
+	}
+	
+
+#menu-menu{
+	margin:150px 0 0 0;
+}
+
+#menu-menu li{
+	margin:0 15% 20px 0;
+	padding: 10px 10px 0 10px;
+	background:#003300;
+	color:white;
+	text-align:right;
+}
+
+
+@keyframes thingymove {
+	0% { margin-right:15%}
+	100% {margin-right:0%}
+}
+
+
+@-webkit-keyframes thingymove {
+	0% { margin-right:15%}
+	100% {margin-right:0%}
+}
+
+
+@-moz-keyframes thingymove {
+	0% { margin-right:15%}
+	100% {margin-right:0%}
+}
+
+#menu-menu li:hover{
+	animation: thingymove 2s;
+	-moz-animation: thingymove 2s;
+	-webkit-animation: thingymove 2s;
+	}
+
+#menu-menu li:hover{
+	margin-right: 0%;
+}
+
+#menu-menu li a{
+	color: white;
+	text-transform:uppercase;
+	line-height:35px;
+	text-decoration:none;
+	width:100%;
+	display: block;
+
+}
+
+section{
+	border-left:80px solid #003300;
+	padding:0 7% 0 5%;
+	width:60%;
+	position:relative;
+	float:right;
+	min-height:1000px;
+	}
+
+section:before{
+	content:"";
+	display:block;
+	height:180px;
+	width:80px;
+	background:#003300;
+	position:absolute;
+	top:-180px;
+	left:-80px;
+}
+
+pre{
+	width:100%;
+	
+	}
+	
+.categories{
+	margin:20px 0;
+	display:block;
+	width:100%;
+	}	
+	
+.pagithingy{
+	text-align: center;
+}
+
+.pagithingy a{
+	/*display: block;
+	width: 49%;
+	float: left;
+	text-align: center;*/
+	padding: 10px 0;
+	font-size: 1.4em;
+}
+	
+footer{
+	background:url('images/x-wing-whiteout.png') #003300 no-repeat;
+
+	width:100%;
+	height:200px;
+	position:relative;
+	float:left;
+	overflow:hidden;
+	
+
+}
+
+
+footer b{
+	color:white;
+	display:block;
+	font-size:15em;
+	float:right;
+transform: rotate(30deg);
+-ms-transform: rotate(30deg); /* IE 9 */
+-webkit-transform: rotate(30deg); /* Safari and Chrome */
+-o-transform: rotate(30deg); /* Opera */
+-moz-transform: rotate(30deg); /* Firefox */
+	opacity:0.3;
+
+}
+	
+	
+h1 {
+	font-weight:100;
+	font-size:72px;
+	width:100%;
+	}
+
+h1 a{
+	text-decoration:none;
+	color:inherit;
+}
+	
+h2, h3{
+	font-size:2em;
+	color:#ca1a09;
+	margin:0 0 10px 0;
+	}
+	
+h2 a{
+	color:#ca1a09;
+	text-decoration:none;
+	}
+
+
+	
+img {
+	max-width:100%;
+	}
+	
+article{
+	margin:0 0 15% 0;
+	max-width:666px;
+}
+
+article h2+p{
+	margin:0 0 20px 0;
+	border-bottom: 1px solid #ca1a09;
+
+}
+
+
+.searchresults h2+p{
+	margin:0 0 20px 0;
+	border-bottom: 0px;
+
+}
+
+p{	
+	font-size:1.1em;
+	line-height:1.5em;
+	margin:10px 0;
+	}
+
+
+article li{
+	font-size: 1.1em;
+	margin:5px 0 0 20px;
+	list-style:disc;
+	}
+
+
+.thumbnail-wrapper{
+	display: block;
+}
+
+#commentform{
+	position: relative;
+}
+
+label{
+	display: block;
+}
+
+.required{
+	position: absolute;
+	left:-8px;
+}
+
+input, textarea{
+	width:60%;
+}
+
+textarea{
+	height:100px;
+}
+
+
+.widgets{
+	margin:60px 0 0 0;
+	padding:20px;
+}
+
+.widgets a {
+	padding:5px 0;
+}
+
+
+/*MEDIA QUERIES */
+
+@media only screen 
+and (max-width : 1024px) {
+
+section{
+	width:56%;
+}
+
+header h1{
+	font-size:60px;
+}
+
+}
+
+
+
+/*MEDIA QUERIES */
+
+@media only screen 
+and (max-width : 500px) {
+
+aside, section, header{
+	width:90%;
+	float:left;
+	padding:0 5%;
+	}
+	
+aside{
+	width:100%;
+	padding:0;
+	margin:0 0 20px;
+	}
+
+#menu-menu{
+	margin:0;
+	}
+	
+#menu-menu li{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width:32.5%;
+	text-align:center;
+	}	
+	
+	
+
+#menu-menu{
+
+	}
+
+
+#menu-menu li:hover{
+	animation: none;
+	-moz-animation: none;
+	-webkit-animation: none;
+	}
+	
+p{
+	font-size:1.3em;
+	}
+
+section{
+	border-left:0px;
+
+	}
+
+section:before{
+	display:none;
+	}
+
+
+}
+
