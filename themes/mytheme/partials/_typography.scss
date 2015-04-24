@@ -29,6 +29,13 @@ header{
 }
 
 h1{
+    a{
+        text-decoration:none;
+        color:$black;
+    }
+}
+
+h1{
     font-size:2em;
     margin-bottom:$margin;
     line-height:1.2em;

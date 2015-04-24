@@ -31,72 +31,78 @@
     </nav>
 </header>
 
-	<section id="content">
-            {% if is_front_page %}
 
-            {% for page in pages %}
-                {% if page.date %}
+<section id="content">
+{% if is_front_page %}
+
+    {% for page in pages %}
+        {% if page.date %}
+            <article>
+                <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+                <p class="meta">{{ page.date_formatted }}</p>
+                <p class="excerpt">{{ page.excerpt }}</p>
+                <p class="meta">Tags:
+                {% for tag in page.tags %}
+                    <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
+                    {% endfor %}
+                    </p>
+            </article>
+        {% endif %}
+    {% endfor %}
+
+{% elseif current_page is not empty %}
+
+    {% if meta.tags is not empty %}
+
+        <!-- BLOG POSTS WITH TAGS -->
+        <article>
+            {{ content }}
+            <p class="meta">{{ meta.date_formatted }}</p>
+            <p class="meta">Tags:
+                {% for tag in meta.tags %}
+                    <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
+                {% endfor %}
+            </p>
+        </article>
+
+    {% else %}
+
+        <!-- BLOG POSTS WITHOUT TAGS -->
+        <article>
+            {{ content }}
+        </article>
+
+    {% endif %}
+
+{% elseif current_page is empty %}
+
+    {% if meta.title != 'Error 404' %}
+
+        <!-- TAG PAGES : list of blog posts tagged with #... -->
+
+        <p>Posts tagged <a href="{{ page.url }}">#{{ current_tag }}</a>:</p>
+        {% for page in pages %}
+            {% if page.date %}
                 <article>
                     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-                    <p class="meta">{{ page.date_formatted }}</p>
+                    <p class="meta">{{ page.date_formatted }}
+                    </p>
+                    {{ page.excerpt}}
                     <p class="meta">Tags:
-                    {% for tag in page.tags %}
-                        <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
+                {% for tag in page.tags %}
+                    <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
                     {% endfor %}
-                </p>
-                    <p class="excerpt">{{ page.excerpt }}</p>
-                </article>
-                {% endif %}
-            {% endfor %}
-
-        {% elseif meta.tags %}
-
-                <article>
-                    <!-- <h1>{{ meta.title }}</h1> -->
-                    {{ content }}
-                    <p class="meta">Tags:
-                        {% for tag in meta.tags %}
-                            <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
-                        {% endfor %}
                     </p>
                 </article>
+            {% endif %}
+        {% endfor %}
 
-        {% elseif pages and meta.title != 'Error 404' %}
-                All tags:
-                <ul class="tags">
-                    {% for tag in tag_list %}
-                    <li><a href="/tag/{{ tag }}">#{{ tag }}</a></li>
-                    {% endfor %}
-                </ul>
-                <p>Posts tagged <a href="{{ page.url }}">#{{ current_tag }}</a>:</p>
-                {% for page in pages %}
-                    {% if page.date %}
-                        <article>
-                            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-                            <p class="meta">Posted on {{ page.date_formatted }} by {{ page.author }}
-                                <span class="tags"><br />Tags:
-                                    {% for tag in page.tags %}
-                                            <a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
-                                    {% endfor %}
-                                </span>
-                            </p>
-                            {{ page.content }}
-                        </article>
-                    {% endif %}
-                {% endfor %}
+    {% endif %}
+{% endif %}
+</section>
 
-        {% else %} 
-
-            <div class="post">
-                {% if meta.title %}<h2>{{ meta.title }}</h2>{% endif %}
-                {{ content }}
-            </div>
-
-        {% endif %}
-	</section>
-	
-	<footer id="footer">
-	</footer>
+<footer id="footer">
+</footer>
     
 </body>
 </html>

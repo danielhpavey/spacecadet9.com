@@ -17,6 +17,10 @@ header{
     margin: 0 0 2em 0;
 }
 
+article{
+    margin-bottom:$margin * 2;
+}
+
 img{
     display:block;
     margin:$margin  auto;
