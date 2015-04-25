@@ -57,10 +57,7 @@ header h1 {
   font-weight: 300; }
   header h1 a {
     text-decoration: none;
-    color: #003300; }
-    header h1 a:hover, header h1 a:active, header h1 a:focus {
-      background: #003300;
-      color: #ffffff; }
+    color: #646464; }
 header h2 {
   text-align: right; }
 
@@ -92,6 +89,48 @@ ul {
 .meta {
   font-size: 0.6em;
   margin-bottom: 0; }
+
+a {
+  position: relative;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -ms-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+  display: inline-block; }
+  a:after {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    content: " ";
+    position: absolute;
+    width: calc( 100% + 12px);
+    height: 0;
+    background: #e4e4e4;
+    border-radius: 3px;
+    left: -6px;
+    bottom: -3px;
+    z-index: -1; }
+  a:before {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: red;
+    left: -6px;
+    bottom: -3px; }
+  a:hover:after, a:active:after, a:focus:after {
+    height: calc( 100% + 6px); }
+  a:hover:before, a:active:before, a:focus:before {
+    left: -6px;
+    width: calc( 100% + 12px); }
 
 nav {
   text-align: right; }
