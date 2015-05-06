@@ -3,6 +3,7 @@ Title: A Couple of Tips for Using PHP at the Command Line
 Date: 2015-04-21
 Tags: php,web development,terminal,commandline
 */
+# A Couple of Tips for Using PHP at the Command Line
 
 On vary rare occasion I find it useful to run php in the command line.
 
