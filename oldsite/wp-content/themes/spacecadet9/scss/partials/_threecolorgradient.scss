@@ -1,0 +1,14 @@
+@mixin threecolorgradient($col1, $col2, $col3){
+
+background-image: -webkit-linear-gradient($col1, $col2, $col3);
+background-image: -o-linear-gradient($col1, $col2, $col3);
+background-image: -moz-linear-gradient($col1, $col2, $col3);
+background-image: linear-gradient($col1, $col2, $col3);
+background-repeat: no-repeat;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($col1)}', endColorstr='#{ie-hex-str($col2)}', GradientType=1); // IE9 and down, gets no color-stop at all for proper fallback
+
+
+
+
+
+}

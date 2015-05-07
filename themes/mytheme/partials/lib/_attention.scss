@@ -1,0 +1,34 @@
+@mixin attention() {
+
+    &:hover,
+    &:active,
+    &:focus {
+        @content;
+    }
+
+}
+
+/* egs
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #c00;
+
+    @include attention() {
+        outline: none;
+        color: #09f;
+    }
+
+}
+
+.btn {
+    background-color: #09f;
+
+    @include attention() {
+        background-color: darken(#09f, 10%);
+    }
+
+}
+Source: http://sassmeister.com/gist/d7f40eb288ab1e3e85d3
+*/
+

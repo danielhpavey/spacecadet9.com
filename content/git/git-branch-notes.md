@@ -1,6 +1,6 @@
 /*
 Title: Git Branch Notes
-Date:2013-01-29
+Date:20130129
 Tags: git
 */
 

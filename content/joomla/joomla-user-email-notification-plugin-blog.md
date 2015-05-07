@@ -1,6 +1,6 @@
 /*
 Title: Joomla User Email Notification Plugin
-Date: 2013-06-06
+Date: 20130606
 Tags: joomla,web design
 */
 

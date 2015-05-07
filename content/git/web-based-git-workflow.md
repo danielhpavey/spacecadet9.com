@@ -1,6 +1,6 @@
 /*
 Title: Set up web based git workflow
-Date: 2013-04-17
+Date: 20130417
 Tags: git
 */
 

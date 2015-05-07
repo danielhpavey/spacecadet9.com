@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+<link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+</head>
+<body>
+
+<header>
+<h1><a href="{{ base_url }}">{{ site_title }}</a></h1>
+<h2>A sorta, kinda, web development and design blog...</h2>
+<nav>
+<ul class="nav">
+<li><a href = "{{ base_url }}">Home</a></li>
+{% for page in pages %}
+{% if not page.date %}
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</nav>
+</header>
+
+<section id="content">
+{% if is_front_page %}
+
+{% for page in paged_pages %}
+{% if page.date %}
+<article>
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<p class="meta">{{ page.date_formatted }}</p>
+<p class="excerpt">{{ page.excerpt }}</p>
+<p class="meta">Tags:
+{% for tag in page.tags %}
+<a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
+{% endfor %}
+</p>
+</article>
+{% endif %}
+{% endfor %}
+{{ pagination_links }}
+{% elseif current_page is not empty %}
+{% if meta.tags is not empty %}
+<article>
+{{ content }}
+<p class="meta">{{ meta.date_formatted }}</p>
+<p class="meta">Tags:
+{% for tag in meta.tags %}
+<a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
+{% endfor %}
+</p>
+</article>
+{% else %}
+<article>
+{{ content }}
+</article>
+{% endif %}
+{% elseif current_page is empty %}
+{% if meta.title != 'Error 404' %}
+<p>Posts tagged <a href="{{ page.url }}">#{{ current_tag }}</a>:</p>
+{% for page in pages %}
+{% if page.date %}
+<article>
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<p class="meta">{{ page.date_formatted }}
+</p>
+{{ page.excerpt}}
+<p class="meta">Tags:
+{% for tag in page.tags %}
+<a href="{{ base_url }}/tag/{{ tag }}">#{{ tag }}</a>
+{% endfor %}
+</p>
+</article>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endif %}
+</section>
+
+<footer id="footer">
+<b>42</b>
+</footer>
+    
+</body>
+</html>

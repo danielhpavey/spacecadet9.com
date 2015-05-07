@@ -1,12 +1,12 @@
 /*
 Title: Alternating Colour Bullet Points Using nth-child
-Date: 2015-03-19
+Date: 20150319
 Tags: css,web design
 */
 
 # Alternating Colour Bullet Points Using nth-child
 
-I love bulleted lists for content. They're nice and easy for people to read and...
+I love bulleted lists for content. They're nice and easy for people to read and awesome in all kinds of ways!
 
 A project I was working on had a very nice colour scheme and I wanted to incorporate the colours in lots of little design touches. An obvious route to go down was to colour the bullet in any lists. 
 

@@ -29,7 +29,7 @@ class Pico_Plugin {
 		
 	}
 	
-	public function after_load_content(&$file, &$content)
+    public function after_load_content(&$file, &$content)
 	{
 		
 	}
