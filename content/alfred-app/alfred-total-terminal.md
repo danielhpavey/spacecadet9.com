@@ -1,6 +1,6 @@
 /*
 Title: Alfred & Total Terminal Integration
-Date: 2013-07-31
+Date: 20130731
 Tags: alfred
 */
 

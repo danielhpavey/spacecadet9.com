@@ -1,7 +1,7 @@
 /*
 Title: Readable Wearables
 Description: Will people use their watch-like device for browsing the web? Of course they will!!
-Date: 2015-04-15
+Date: 20150415
 Tags: bookmarks,responsive web design
 */
 

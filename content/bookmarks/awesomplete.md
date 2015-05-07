@@ -1,7 +1,7 @@
 /*
 Title: Awesomplete by Lea Verou
 Description: Awesomplete by Lea Verou - an ultra lightweight, simple autocomplete widget with zero dependencies - Look pretty neat!!
-Date: 2015-04-15
+Date: 20150415
 Tags: bookmarks,javascript,web development
 */
 # Awesomplete by Lea Verou

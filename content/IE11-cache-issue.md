@@ -1,6 +1,6 @@
 /*
 Title: IE11 Cache Issue
-Date: 2014-05-15
+Date: 20140515
 */
 
 # Interesting Internet Explorer 11 Cache Issue

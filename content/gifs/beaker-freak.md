@@ -1,8 +1,8 @@
 /*
 Title: Beaker Freak Gif
 Description: This is one of the best gifs I've seem im a while...
-Tags: gifs
 Date: 20150501
+Tags: gifs
 */
 
 # Beaker Freak Gif

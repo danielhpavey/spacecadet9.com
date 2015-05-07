@@ -1,6 +1,6 @@
 /*
 Title: Joomla File Permissions Error
-Date: 2013-08-16
+Date: 20130816
 Tags: joomla,web design
 */
 

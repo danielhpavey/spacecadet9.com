@@ -1,6 +1,6 @@
 /*
 Title: Git Remote Branches
-Date: 2013-04-04
+Date: 20130404
 Tags: git
 */
 

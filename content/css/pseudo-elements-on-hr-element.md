@@ -1,6 +1,6 @@
 /*
 Title: Pseudo Elements on hr Tag in IE
-Date:2014-05-09
+Date:20140509
 Tags: css,web design
 */
 

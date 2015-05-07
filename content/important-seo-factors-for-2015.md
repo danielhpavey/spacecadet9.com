@@ -1,7 +1,7 @@
 /*
 Title:  Important SEO Factors in 2015
 Description: This description will go in the meta description tag
-Date:2015-03-20
+Date:20150320
 */
 
 # Important SEO Factors in 2015

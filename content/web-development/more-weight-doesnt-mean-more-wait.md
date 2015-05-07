@@ -1,7 +1,7 @@
 /*
 Title: Super Read -> More Weight Doesn't Mean More Wait
 Description: Very informative and interesting article from the Filament Group about ways to increase web page performance without necessarily reducing page size.
-Date: 2015-04-20
+Date: 20150420
 Tags: web development,responsive web design
 */
 

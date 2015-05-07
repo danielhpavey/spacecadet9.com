@@ -1,6 +1,6 @@
 /*
 Title: Joomla From Validation
-Date: 2013-02-25
+Date: 20130225
 Tags: joomla,web design
 
 */

@@ -1,6 +1,6 @@
 /*
 Title: Joomla Header
-Date: 2013-05-28
+Date: 20130528
 Tags: joomla,web design
 */
 

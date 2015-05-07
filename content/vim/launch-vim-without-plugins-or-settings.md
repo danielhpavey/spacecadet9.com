@@ -1,7 +1,7 @@
 /*
 Title: Launch Vim With No Plugins or Settings
 Description: How to launch vim with no plugins or settings
-Date: 2015-05-07
+Date: 20150507
 Tags: vim
 */
 # Launch Vim With No Plugins or Settings

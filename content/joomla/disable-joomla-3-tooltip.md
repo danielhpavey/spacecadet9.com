@@ -1,6 +1,6 @@
 /*
 Title: Disable Joomla! 3 Tool Tip
-Date: 2014-08-24
+Date: 20140824
 Tags: joomla,web design
 */
 

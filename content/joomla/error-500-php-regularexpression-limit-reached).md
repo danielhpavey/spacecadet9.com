@@ -1,6 +1,6 @@
 /*
 Title: error-500-php-regularexpression-limit-reached
-Date: 2012-11-19
+Date: 20121119
 Tags: joomla,web design,php
 */
 

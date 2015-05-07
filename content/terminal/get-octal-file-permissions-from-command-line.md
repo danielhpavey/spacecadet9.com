@@ -1,7 +1,7 @@
 /*
 Title: How to get Octal File Permissions from the Command Line
 Description: How to get the octal file permissions for the command line.
-Date: 2012-11-19
+Date: 20121119
 Tags: mac,terminal,command line
 */
 

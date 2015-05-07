@@ -1,7 +1,7 @@
 /*
 Title: Great Gif: Refactoring
 Description: A super gif this one...
-Date: 2015-04-24
+Date: 20150424
 Tags: gifs,css,web development
 */
 
