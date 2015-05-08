@@ -1,0 +1,21 @@
+nav{
+
+    text-align:right;
+
+    li{
+        display:inline;
+        text-decoration:none;
+
+        a{
+            text-decoration:none;
+            color:$black;
+            text-transform:lowercase;
+            
+            @include transition(all, 1s, ease);
+
+            @include attention(){
+                color:$green;
+            }
+        }
+    }
+}
