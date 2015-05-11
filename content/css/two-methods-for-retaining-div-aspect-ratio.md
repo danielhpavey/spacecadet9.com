@@ -1,12 +1,12 @@
 /*
 Title: Two Methods for Retaining Div Aspect Ratio
-Description: Two mehtod for retaining div and other html block elements aspect ratio
+Description: Two method for retaining div and other html block elements aspect ratio
 Date: 20150508
 Tags: css,webdev,webdesign
 */
 # Two Methods for Retaining Div Aspect Ratio
 
-I recently found that I needed to maintain the aspect ratio of a div as the browser resizes. I wanted to maintain the ratio as I was using it as part of an image slideshow.
+I recently found that I needed to maintain the aspect ratio of a div as the browser resizes. I wanted to maintain the ratio as I was using it as part of an image slide show.
 
 I found 2 good solutions, one seemingly a lot simpler than the other. However I can't work out if one is *better* than the other...
 
@@ -24,7 +24,7 @@ I found 2 good solutions, one seemingly a lot simpler than the other. However I 
 > 
 > you get a fluid square box with only a three row CSS declaration.
 > 
-> [Full CSS Fluid Squares (or Rectangles, or... - position: absolide;](http://absolide.tumblr.com/post/7317210512/full-css-fluid-squares)
+> [Full CSS Fluid Squares (or Rectangles, or... - position: absolute;](http://absolide.tumblr.com/post/7317210512/full-css-fluid-squares)
 
 ## Solution 2
 
@@ -53,3 +53,7 @@ I found 2 good solutions, one seemingly a lot simpler than the other. However I 
 > `
 >
 > [ HEIGHT EQUALS WIDTH WITH PURE CSS ](http://www.mademyday.de/css-height-equals-width-with-pure-css.html)
+
+I do love using pseudo elements, hover solution 1 does seem significantly simpler...
+
+
