@@ -25,3 +25,4 @@ $config['site_title'] = 'Space Cadet 9';			// Site title
 $config['theme'] = 'mytheme'; 			// Set the theme (defaults to "default")
 $config['pages_order_by'] = 'date';	// Order pages by "alpha" or "date"
 $config['pages_order'] = 'desc';			// Order pages "asc" or "desc"
+$config['pagination_limit'] = 10;
