@@ -20,7 +20,7 @@ header{
         }
     }
 
-    h2{
+    .headh2{
         text-align:right;
     }
 
@@ -37,6 +37,11 @@ h1{
     font-size:2em;
     margin-bottom:$margin;
     line-height:1.2em;
+}
+
+h2:not(.headh2){
+    font-size:1.4em;
+    line-height:1.6em;
 }
 
 section{

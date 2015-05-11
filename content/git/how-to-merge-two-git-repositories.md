@@ -3,6 +3,7 @@ Title: How to Merge Two Git Repositories
 Description: How to merge two git repositories
 Date: 20150507
 Tags: git
+*/
 
 # How to Merge Two Git Repositories
 
@@ -38,5 +39,7 @@ The best basic description I found on line for how to merge two [git](http://www
 > Source [Merging two git repositories | Platformability](http://blog.caplin.com/2013/09/18/merging-two-git-repositories/)
 
 I basically followed these instructions, but added in a step where I deleted the existing site in branch B before I merged in the new site repo...
+
+It seems to have worked!!
 
 
